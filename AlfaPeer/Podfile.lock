@@ -1,0 +1,80 @@
+PODS:
+  - AlfaPeerFramework (1.0.4):
+    - BigInt (~> 5.0)
+    - CryptoSwift
+    - IrohaCrypto/ed25519 (~> 0.8.0)
+    - IrohaCrypto/Scrypt (~> 0.8.0)
+    - IrohaCrypto/secp256k1 (~> 0.8.0)
+    - IrohaCrypto/sr25519 (~> 0.8.0)
+    - IrohaCrypto/ss58 (~> 0.8.0)
+    - ReachabilitySwift
+    - RobinHood
+    - secp256k1.swift
+    - Starscream
+    - TweetNacl
+    - xxHash-Swift (~> 1.0.0)
+  - BigInt (5.2.0)
+  - CryptoSwift (1.4.2)
+  - IrohaCrypto/BIP39 (0.8.2):
+    - IrohaCrypto/Common
+  - IrohaCrypto/blake2 (0.8.2)
+  - IrohaCrypto/Common (0.8.2)
+  - IrohaCrypto/ed25519 (0.8.2):
+    - IrohaCrypto/Common
+  - IrohaCrypto/Scrypt (0.8.2):
+    - IrohaCrypto/Common
+    - scrypt.c (~> 0.1)
+  - IrohaCrypto/secp256k1 (0.8.2):
+    - IrohaCrypto/Common
+    - secp256k1.c (~> 0.1)
+  - IrohaCrypto/sr25519 (0.8.2):
+    - IrohaCrypto/BIP39
+    - IrohaCrypto/blake2
+    - IrohaCrypto/Common
+  - IrohaCrypto/ss58 (0.8.2):
+    - IrohaCrypto/blake2
+    - IrohaCrypto/Common
+  - ReachabilitySwift (5.0.0)
+  - RobinHood (2.6.0)
+  - scrypt.c (0.1.1)
+  - secp256k1.c (0.1.2)
+  - secp256k1.swift (0.1.4)
+  - Starscream (4.0.4)
+  - TweetNacl (1.0.2)
+  - xxHash-Swift (1.0.13)
+
+DEPENDENCIES:
+  - AlfaPeerFramework
+
+SPEC REPOS:
+  trunk:
+    - AlfaPeerFramework
+    - BigInt
+    - CryptoSwift
+    - IrohaCrypto
+    - ReachabilitySwift
+    - RobinHood
+    - scrypt.c
+    - secp256k1.c
+    - secp256k1.swift
+    - Starscream
+    - TweetNacl
+    - xxHash-Swift
+
+SPEC CHECKSUMS:
+  AlfaPeerFramework: d904a69ca01b2320895502b73cb3e590b6585705
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
+  IrohaCrypto: 2b7585e71eff4fbd7e7adc2d592ad5c22610524b
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RobinHood: f8628c9841dc1a082f4565247f6b598e82157b28
+  scrypt.c: b42ae06183251329d2b2c620c226fb541a4a3592
+  secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
+  xxHash-Swift: 30bd6a7507b3b7348a277c49b1cb6346c2905ec7
+
+PODFILE CHECKSUM: 613cd421b0ab8dbef24a1a7f185a5af6174cc60d
+
+COCOAPODS: 1.10.2

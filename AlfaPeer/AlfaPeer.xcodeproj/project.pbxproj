@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C09E0B2394EADF962DFA03 /* Pods_AlfaPeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB31304440417A2A78A43A31 /* Pods_AlfaPeer.framework */; };
+		CE12703C274CF68B00EC1FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12703B274CF68B00EC1FDF /* AppDelegate.swift */; };
+		CE12703E274CF68B00EC1FDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12703D274CF68B00EC1FDF /* SceneDelegate.swift */; };
+		CE127040274CF68B00EC1FDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12703F274CF68B00EC1FDF /* ViewController.swift */; };
+		CE127043274CF68B00EC1FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE127041274CF68B00EC1FDF /* Main.storyboard */; };
+		CE127045274CF68C00EC1FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE127044274CF68C00EC1FDF /* Assets.xcassets */; };
+		CE127048274CF68C00EC1FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE127046274CF68C00EC1FDF /* LaunchScreen.storyboard */; };
+		CEC75E4E274E0EAC00575B15 /* NmemonicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC75E4D274E0EAC00575B15 /* NmemonicsVC.swift */; };
+		CEC75E51274E13EA00575B15 /* WalletBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC75E50274E13EA00575B15 /* WalletBalanceVC.swift */; };
+		CEC75E54274E150000575B15 /* SendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC75E53274E150000575B15 /* SendVC.swift */; };
+		CEC75E57274E151B00575B15 /* ReceiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC75E56274E151B00575B15 /* ReceiveVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48F253F5B0C058FB3FDA2EF6 /* Pods-AlfaPeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaPeer.release.xcconfig"; path = "Target Support Files/Pods-AlfaPeer/Pods-AlfaPeer.release.xcconfig"; sourceTree = "<group>"; };
+		B4251B084BF47CD2FFC9CDDA /* Pods-AlfaPeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaPeer.debug.xcconfig"; path = "Target Support Files/Pods-AlfaPeer/Pods-AlfaPeer.debug.xcconfig"; sourceTree = "<group>"; };
+		CE127038274CF68B00EC1FDF /* AlfaPeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlfaPeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE12703B274CF68B00EC1FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE12703D274CF68B00EC1FDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE12703F274CF68B00EC1FDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE127042274CF68B00EC1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE127044274CF68C00EC1FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE127047274CF68C00EC1FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE127049274CF68C00EC1FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC75E4D274E0EAC00575B15 /* NmemonicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NmemonicsVC.swift; sourceTree = "<group>"; };
+		CEC75E50274E13EA00575B15 /* WalletBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletBalanceVC.swift; sourceTree = "<group>"; };
+		CEC75E53274E150000575B15 /* SendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendVC.swift; sourceTree = "<group>"; };
+		CEC75E56274E151B00575B15 /* ReceiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveVC.swift; sourceTree = "<group>"; };
+		DB31304440417A2A78A43A31 /* Pods_AlfaPeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlfaPeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE127035274CF68B00EC1FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C09E0B2394EADF962DFA03 /* Pods_AlfaPeer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD9F49AAE82AA92CD7658A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4251B084BF47CD2FFC9CDDA /* Pods-AlfaPeer.debug.xcconfig */,
+				48F253F5B0C058FB3FDA2EF6 /* Pods-AlfaPeer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE12702F274CF68B00EC1FDF = {
+			isa = PBXGroup;
+			children = (
+				CE12703A274CF68B00EC1FDF /* AlfaPeer */,
+				CE127039274CF68B00EC1FDF /* Products */,
+				CDD9F49AAE82AA92CD7658A5 /* Pods */,
+				EB068D60709823F31D9C8605 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE127039274CF68B00EC1FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE127038274CF68B00EC1FDF /* AlfaPeer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE12703A274CF68B00EC1FDF /* AlfaPeer */ = {
+			isa = PBXGroup;
+			children = (
+				CE12703B274CF68B00EC1FDF /* AppDelegate.swift */,
+				CE12703D274CF68B00EC1FDF /* SceneDelegate.swift */,
+				CE12703F274CF68B00EC1FDF /* ViewController.swift */,
+				CE127041274CF68B00EC1FDF /* Main.storyboard */,
+				CE127044274CF68C00EC1FDF /* Assets.xcassets */,
+				CE127046274CF68C00EC1FDF /* LaunchScreen.storyboard */,
+				CE127049274CF68C00EC1FDF /* Info.plist */,
+				CEC75E4D274E0EAC00575B15 /* NmemonicsVC.swift */,
+				CEC75E50274E13EA00575B15 /* WalletBalanceVC.swift */,
+				CEC75E53274E150000575B15 /* SendVC.swift */,
+				CEC75E56274E151B00575B15 /* ReceiveVC.swift */,
+			);
+			path = AlfaPeer;
+			sourceTree = "<group>";
+		};
+		EB068D60709823F31D9C8605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB31304440417A2A78A43A31 /* Pods_AlfaPeer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE127037274CF68B00EC1FDF /* AlfaPeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE12704C274CF68C00EC1FDF /* Build configuration list for PBXNativeTarget "AlfaPeer" */;
+			buildPhases = (
+				12FC104C5B503E936A46A7BA /* [CP] Check Pods Manifest.lock */,
+				CE127034274CF68B00EC1FDF /* Sources */,
+				CE127035274CF68B00EC1FDF /* Frameworks */,
+				CE127036274CF68B00EC1FDF /* Resources */,
+				3D4FE43CC24F5C2B654275E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlfaPeer;
+			productName = AlfaPeer;
+			productReference = CE127038274CF68B00EC1FDF /* AlfaPeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE127030274CF68B00EC1FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CE127037274CF68B00EC1FDF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CE127033274CF68B00EC1FDF /* Build configuration list for PBXProject "AlfaPeer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE12702F274CF68B00EC1FDF;
+			productRefGroup = CE127039274CF68B00EC1FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE127037274CF68B00EC1FDF /* AlfaPeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE127036274CF68B00EC1FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE127048274CF68C00EC1FDF /* LaunchScreen.storyboard in Resources */,
+				CE127045274CF68C00EC1FDF /* Assets.xcassets in Resources */,
+				CE127043274CF68B00EC1FDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12FC104C5B503E936A46A7BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlfaPeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4FE43CC24F5C2B654275E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlfaPeer/Pods-AlfaPeer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlfaPeer/Pods-AlfaPeer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlfaPeer/Pods-AlfaPeer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE127034274CF68B00EC1FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE127040274CF68B00EC1FDF /* ViewController.swift in Sources */,
+				CE12703C274CF68B00EC1FDF /* AppDelegate.swift in Sources */,
+				CEC75E54274E150000575B15 /* SendVC.swift in Sources */,
+				CEC75E4E274E0EAC00575B15 /* NmemonicsVC.swift in Sources */,
+				CE12703E274CF68B00EC1FDF /* SceneDelegate.swift in Sources */,
+				CEC75E57274E151B00575B15 /* ReceiveVC.swift in Sources */,
+				CEC75E51274E13EA00575B15 /* WalletBalanceVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE127041274CF68B00EC1FDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE127042274CF68B00EC1FDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE127046274CF68C00EC1FDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE127047274CF68C00EC1FDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE12704A274CF68C00EC1FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE12704B274CF68C00EC1FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE12704D274CF68C00EC1FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4251B084BF47CD2FFC9CDDA /* Pods-AlfaPeer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVUWR9HCMS;
+				INFOPLIST_FILE = AlfaPeer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarketHub.AlfaPeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE12704E274CF68C00EC1FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F253F5B0C058FB3FDA2EF6 /* Pods-AlfaPeer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVUWR9HCMS;
+				INFOPLIST_FILE = AlfaPeer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarketHub.AlfaPeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE127033274CF68B00EC1FDF /* Build configuration list for PBXProject "AlfaPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE12704A274CF68C00EC1FDF /* Debug */,
+				CE12704B274CF68C00EC1FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE12704C274CF68C00EC1FDF /* Build configuration list for PBXNativeTarget "AlfaPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE12704D274CF68C00EC1FDF /* Debug */,
+				CE12704E274CF68C00EC1FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE127030274CF68B00EC1FDF /* Project object */;
+}

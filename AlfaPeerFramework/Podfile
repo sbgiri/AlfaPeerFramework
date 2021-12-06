@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
+
+target 'AlfaPeerFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AlfaPeerFramework
+  
+ pod 'IrohaCrypto/sr25519', '~> 0.8.0'
+ pod 'IrohaCrypto/ed25519', '~> 0.8.0'
+ pod 'IrohaCrypto/secp256k1', '~> 0.8.0'
+ pod 'IrohaCrypto/Scrypt', '~> 0.8.0'
+ pod 'IrohaCrypto/ss58', '~> 0.8.0'
+# pod 'ReachabilitySwift'
+# pod 'RobinHood'
+# pod 'Starscream'
+ #pod 'TweetNacl'
+ pod 'BigInt', '~> 5.0'
+ pod 'xxHash-Swift', '~> 1.0.0'
+# pod 'secp256k1.swift', '~> 0.1.4'
+ pod 'CryptoSwift'
+
+
+
+end

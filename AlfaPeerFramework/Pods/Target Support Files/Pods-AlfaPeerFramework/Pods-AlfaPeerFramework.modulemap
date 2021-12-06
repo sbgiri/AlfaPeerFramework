@@ -1,0 +1,6 @@
+framework module Pods_AlfaPeerFramework {
+  umbrella header "Pods-AlfaPeerFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

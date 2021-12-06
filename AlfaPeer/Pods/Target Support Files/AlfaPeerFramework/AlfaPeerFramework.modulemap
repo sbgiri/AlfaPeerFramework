@@ -1,0 +1,6 @@
+framework module AlfaPeerFramework {
+  umbrella header "AlfaPeerFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
